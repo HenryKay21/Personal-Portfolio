@@ -1,0 +1,58 @@
+h1 {
+  
+  flex: auto;
+  text-align: center;
+  color: rgba(23, 8, 235, 0.726);
+  background-color: rgba(211, 211, 211, 0.623);
+  }
+
+
+.container-main {
+  background:url(supermkt.jpg);
+  background-size: contain;
+;
+}
+
+#description{
+  color:rgb(74, 28, 201);
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgba(211, 211, 211, 0.623);
+
+}
+#survey-form {
+  /* border: solid; */
+  background-color: smoke-grey;
+}
+#container-inner, #containerQ{
+  margin: 8px;
+  background-color: rgba(202, 243, 229, 0.8);
+  
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+label, input {
+  margin: 5px;
+}
+
+#feedback{
+  margin-bottom: 20px;
+  width: 400px;
+  height: 150px;
+  border-radius: 8px;
+}
+#btn {
+  background-color: lawngreen;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+#name-label, #email-label {
+  border-radius: 8px;
+  width: 300px;
+  
+}
+#number-label {
+  border-radius: 8px;
+}

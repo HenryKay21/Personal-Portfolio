@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylo.css">
+  <title>Troy Grocery Store | Survey</title>
+</head>
+<body>
+  <div class="container-main">
+    <img src="https://unsplash.com/photos/Gk8LG7dsHWA" id="bg" alt="">
+    <h1 id="title"> Troy Grocery Store Survey</h1>
+    <p id="description">Please try to help us offer you better services by completing the survey below</p>
+    <form id="survey-form">
+      <div id="container-inner">
+        <label>Name:</label><br>
+        <input type="text" name="name" id="name-label" placeholder="Please type your full name" required><br>
+        <label>E-mail:</label><br>
+        <input type="email" name="email" id="email-label" placeholder="Please enter your email address" required> <br>
+        <label>Age:</label><br>
+        <input type="number" name="age" id="number-label" min="15" max="99" required>
+      </div>
+      
+      <!-- The quesionnaire content -->
+      <div id="containerQ"> 
+        <p>How satisfied are you with our groceries?</p>
+        <div id="Q1">
+          <input type="radio" name="satisfaction-level" id="Satisfied1" value="Unsatisfied">
+          <label for="satisfaction-level">Unsatisfied</label>
+
+          <input type="radio" name="satisfaction-level" id="Satisfied2" value="Satisfied" checked>
+          <label for="satisfaction-level">Satisfied</label>
+
+          <input type="radio" name="satisfaction-level" id="Satisfied3" value="verySatisfied">
+          <label for="satisfaction-level">Very Satisfied</label>
+        </div>
+        <p>How often do you buy from us?</p>
+        <div id="Q2">
+          <input type="checkbox" name="routine" id="" value="daily">
+          <label for="routine">Daily</label>
+
+          <input type="checkbox" name="routine" id="" value="weekly">
+          <label for="routine">Weekly</label>
+
+          <input type="checkbox" name="routine" id="" value="monthly">
+          <label for="routine">Monthly</label>
+        </div>
+        <div>
+          <p>What do you usually buy from us? <span for="vegetables">Please check all that apply:</span></p>
+          <select name="vegetables" id="dropdown" multiple>
+            <option value="tomatoes">Tomatoes</option>
+            <option value="onions">Onions</option>
+            <option value="broccoli">Broccoli</option>
+            <option value="eggplants">Eggplants</option>
+            <option value="nakati">Nakati</option>
+            <option value="greenpepper">Green Pepper</option>
+            <option value="redpepper">Red Pepper</option>
+            <option value="cabbage">Cabbage</option>
+            <option value="okra">Okra</option>
+            <option value="matooke">Matooke</option>
+            <option value="yellowbananas">Yellow Bananas</option>
+            <option value="ggobe">Ggobe</option>
+            
+          </select>
+        </div>
+      
+        <!-- Textarea for feedback -->
+        <div>
+          <p> What suggestions do you recommend to us for improved service delivery? Or any additional comments?</p>
+          <textarea id="feedback"></textarea>
+        </div>
+
+        <!-- submit button -->
+        <div>
+          <button type="submit" value="submit" id="btn">Submit</button>
+        </div>
+        <br>
+        <p> &copy 2021 HenryKay21 Designs </p>
+      </div>
+        </form>
+  </div>
+
+  
+</body>
+</html>
