@@ -1,0 +1,30 @@
+#title {
+    font-size: 50px;
+    text-align: center;
+  }
+  li {
+    text-align: justified;
+  }
+  .lifetime {
+    font-size: 25px;
+     text-align: center;
+  }
+  
+  .capt {
+    font-family: Verdana;
+    
+  }
+  #img-div {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }  
+
+  #img-caption {
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+
+  }
